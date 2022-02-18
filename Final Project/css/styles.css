@@ -1,0 +1,169 @@
+* {
+  background-color: #80332F;
+}
+
+.hero-image {
+  background-image: url(https://hakaimagazine.com/wp-content/uploads/header-social-octopus.jpg); 
+  background-color: #80332F; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding: -20px, -20px;;
+}
+
+.hero-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #091F33;
+  background-color: transparent;
+  opacity: 85%;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 100px;
+  width: 100px;
+}
+ 
+.topnav {
+  background-color: #4D1F1C;
+  position: sticky;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  height: 100px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.topnav a {
+  margin: 0 0 0 0px;
+  color: #091F33;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+  line-height: 100px;
+  padding: 0px 20px; 
+  background-color: #4D1F1C; 
+}
+
+.topnav a:hover {
+  background-color: #225480;
+  color: black;
+}
+
+.topnva a.active {
+  background-color: #31330B;
+  color: #091F33;
+}
+
+article {
+  background-color: #80332F;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+.article {
+  font-size: large;
+  color: #091F33;
+  width: auto;
+  padding: 50px;
+  margin: 20px;
+  border: 20px solid #091F33;
+  
+}
+
+.hero-image-b {
+  background-image: url(https://www.neaq.org/wp-content/uploads/2020/09/20200908_081546-760x369.jpg); 
+  background-color: #80332F; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding: -20px, -20px
+}
+
+.hero-text-b {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  text-align: center;
+  position: absolute;
+  top: 138%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: transparent;
+  opacity: 75%;
+}
+
+.column-b {
+  float: left;
+  width: 33.33%
+}
+
+.row-b:after {
+  display: table;
+  clear: both; 
+}
+
+.meet {
+  background-color: #80332F;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.google-map {
+  width: 600px;
+  border: 20px solid #091F33;
+  padding: 20px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+footer {
+  color: #091F33;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  background-color: transparent;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  border: 20px solid #4D1F1C;
+  padding: 50px;
+}
+
+
